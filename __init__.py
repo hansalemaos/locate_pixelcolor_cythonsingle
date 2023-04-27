@@ -1,4 +1,4 @@
-from colorsearchcythonsingle import searchforcolor
+from .colorsearchcythonsingle import searchforcolor
 import numpy as np
 def search_colors(pic, colors):
     if not isinstance(colors, np.ndarray):

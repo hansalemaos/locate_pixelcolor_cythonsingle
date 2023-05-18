@@ -91,3 +91,31 @@ setup(
 
 # .\python.exe .\colorsearchcythonsinglesetup.py build_ext --inplace
 ```
+
+
+### Alternatives
+
+I wrote a couple of variations of this function. All of them 
+can be used in Python.
+
+#### Cython, but with multiple processors (5-10x faster than Numpy)
+https://github.com/hansalemaos/locate_pixelcolor_cythonmulti
+
+#### Cupy, using the GPU (up to 8x faster than Numpy)
+https://github.com/hansalemaos/locate_pixelcolor_cupy
+
+#### C - shared library, using the GPU (10x faster than Numpy)
+https://github.com/hansalemaos/locate_pixelcolor_c
+
+#### C++ - parallel_for - shared library (up to 10x faster than Numpy) 
+https://github.com/hansalemaos/locate_pixelcolor_cpp_parallelfor
+
+#### C++ - pragma omp - shared library (20x faster than Numpy)
+https://github.com/hansalemaos/locate_pixelcolor_cpppragma
+
+#### Numba - compiled - ahead of time (2-3x faster than numpy)
+https://github.com/hansalemaos/locate_pixelcolor_numba
+
+#### Numba Cuda - compiled - ahead of time (10x faster than numpy)
+https://github.com/hansalemaos/locate_pixelcolor_numbacuda
+

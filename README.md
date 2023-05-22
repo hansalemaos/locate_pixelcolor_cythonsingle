@@ -104,7 +104,7 @@ https://github.com/hansalemaos/locate_pixelcolor_cythonmulti
 #### Cupy, using the GPU (up to 8x faster than Numpy)
 https://github.com/hansalemaos/locate_pixelcolor_cupy
 
-#### C - shared library, using the GPU (10x faster than Numpy)
+#### C - shared library (10x faster than Numpy)
 https://github.com/hansalemaos/locate_pixelcolor_c
 
 #### C++ - parallel_for - shared library (up to 10x faster than Numpy) 
